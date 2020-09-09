@@ -62,6 +62,61 @@ header {
   padding-top: 10px;
 }
 
+.portfolio {
+  background-color: #eceff1;
+}
+
+.heading {
+  font-size: 32px;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.heading-text {
+  font-size: 16px;
+  text-align: center;
+  padding: 30px 0;
+
+}
+
+.production-group {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.production {
+  width: 300px;
+  height: 250px;
+  margin: 10px 10px 0 0;
+  background-size: cover;
+  background-position: center;
+  float: left;
+}
+
+.bg1 {
+  background-image: url(img/sketch.jpg);
+}
+
+.bg2 {
+  background-image: url(img/websuku.png);
+}
+
+.bg3 {
+  background-image: url(img/write.jpg);
+}
+
+.bg4 {
+  background-image: url(img/webcamp.png);
+}
+
+.bg5 {
+  background-image: url(img/talk.jpg);
+}
+
+.bg6 {
+  background-image: url(img/webcamp-mother.png);
+}
+
 
 
 

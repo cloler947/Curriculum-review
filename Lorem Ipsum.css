@@ -204,3 +204,42 @@ header {
 .discription-text {
   font-size: 16px;
 }
+
+.contact-group {
+  width: 800px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+
+}
+
+.contact-group i {
+  font-size: 47px;
+  margin-right: 20px;
+}
+
+.contact-group i:last-child {
+  margin-right: 0;
+}
+
+.left-contact-content {
+  width: 130px;
+  margin: 0 auto;
+}
+
+.right-contact-content {
+  width: 170px;
+  margin: 0 auto;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  background-color: #ec715f;
+}
+
+.footer-text {
+  font-size: 16px;
+  color: #fafafa;
+}

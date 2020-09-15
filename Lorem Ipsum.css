@@ -310,6 +310,12 @@ footer {
     display: none;
   }
 
+  #feature {
+    padding: 0 5%;
+    background-size: cover;
+    background-position: center;
+  }
+
   .strength-group {
     width: 320px;
   }
@@ -321,6 +327,42 @@ footer {
   .strength {
     float: none;
     margin-top: 10px;
+  }
+
+  #profile {
+    padding: 0 5%;
+  }
+
+  .profile-group {
+    text-align: center;
+  }
+
+  .left-content {
+    float: none;
+    width: 100%;
+  }
+
+  .right-content {
+    float: none;
+    width: 100%;
+  }
+
+  .discription-title:first-child {
+    margin-top: 20px;
+  }
+
+  #contact {
+    padding: 0 5%;
+  }
+
+  .contact-group {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-group i {
+    margin-right: 8px;
+    font-size: 50px;
   }
 }
 

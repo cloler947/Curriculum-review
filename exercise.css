@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pink {
+  width: 100%;
+  padding: 30px 20px;
+  background-color: #FF00FF;
+  display: flex;
+}
+
+.pink > div {
+  height: 70px;
+  margin: 0 10px;
+  flex-basis: 140px;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #FFCCFF;
+}
+
+.pink > div:first-child {
+  margin-right: auto;
+}
+
+.gray {
+  width: 100%;
+  background-color: #C0C0C0;
+}
+
+.lime-green {
+  background-color: #CCFF99;
+}
+
+.green {
+  background-color: #008000;
+}
+
+.yellow {
+  background-color: #FFFF00;
+}
+
+.blue {
+  background-color: #3399FF;
+}
+
+.blue > div {
+  background-color: #CCFFFF;
+}

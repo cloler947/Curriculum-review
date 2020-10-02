@@ -27,24 +27,46 @@
 .gray {
   width: 100%;
   background-color: #C0C0C0;
+  display: flex;
+  justify-content: center;
 }
 
 .lime-green {
   background-color: #CCFF99;
+  width: 300px;
 }
 
 .green {
   background-color: #008000;
+  flex-grow: 1;
+  display: flex;
+  padding: 20px;
+  max-width: 700px;
+  flex-wrap: wrap;
 }
 
 .yellow {
   background-color: #FFFF00;
+  margin: 10px;
+  height: 130px;
+  flex-basis: 200px;
 }
 
 .blue {
   background-color: #3399FF;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-content: center;
 }
 
 .blue > div {
   background-color: #CCFFFF;
+  height: 40px;
+  margin: 10px;
+}
+
+.blue > div:last-child {
+  flex-basis: 45%;
+  max-width: 600px;
 }

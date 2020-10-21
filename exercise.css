@@ -57,15 +57,17 @@
   width: 100%;
   padding: 20px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .blue > div {
   background-color: #CCFFFF;
   height: 40px;
   margin: 10px;
+  flex-basis: 45%;
+  max-width: 600px;
 }
 
 .blue > div:last-child {
-  flex-basis: 45%;
-  max-width: 600px;
 }
